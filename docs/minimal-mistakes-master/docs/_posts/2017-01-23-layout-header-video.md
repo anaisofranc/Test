@@ -25,11 +25,7 @@ This post should display a **header with a responsive video**, if the theme supp
 
 To embed the following YouTube video at url `https://www.youtube.com/watch?v=XsxDH4HcOWA` (long version) or `https://youtu.be/XsxDH4HcOWA` (short version) into a post or page's main content you'd use: 
 
-```liquid
-{% raw %}{% include video id="XsxDH4HcOWA" provider="youtube" %}{% endraw %}
-```
 
-{% include video id="XsxDH4HcOWA" provider="youtube" %}
 
 To embed it as a video header you'd use the following YAML Front Matter
 
@@ -44,11 +40,6 @@ header:
 
 To embed the following Vimeo video at url `https://vimeo.com/212731897` into a post or page's main content you'd use: 
 
-```liquid
-{% raw %}{% include video id="212731897" provider="vimeo" %}{% endraw %}
-```
-
-{% include video id="212731897" provider="vimeo" %}
 
 To embed it as a video header you'd use the following YAML Front Matter
 
