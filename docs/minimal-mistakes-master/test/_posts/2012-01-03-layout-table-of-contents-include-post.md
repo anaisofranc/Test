@@ -7,10 +7,10 @@ tags:
 Tests table of contents with multiple levels to verify indentation is readible via helper include (deprecated).
 
 ```
-{% raw %}{% include toc %}{% endraw %}
+{% raw %}{% include toc.html %}{% endraw %}
 ```
 
-{% include toc %}
+{% include toc.html %}
 
 # Enim laboris id ea elit elit deserunt
 
