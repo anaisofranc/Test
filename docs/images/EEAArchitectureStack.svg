@@ -1,0 +1,413 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2600 1600">
+  <defs>
+    <style>
+      .bg {fill:#e6e6e6;}
+
+      .app-layer, .yellow-paper, .public-eth, .ent-eth, x-chain {stroke:#000;stroke-miterlimit:10;}
+      .app-layer {fill:#8aefff}
+      .yellow-paper {fill:#fff47a}
+      .public-eth {fill:#afdb84}
+      .ent-eth {fill:#c7d7ff}
+      .x-chain {fill:#df97ef}
+
+      text {font-family:Montserrat-Regular, Montserrat Regular, Helvetica, Sans-Serif;}
+
+      text {font-weight:700;font-size:24px}
+      .cls-73 {font-weight:400;}
+
+
+      .groupHead {font-size:30px;fill:#fff;}
+      [aria-level]{font-size:46px;}
+
+    </style>
+  </defs>
+  <title>EEA Architecture Stack</title>
+
+  <text role="heading" aria-level="3" transform="translate(525 50)">ENTERPRISE ETHEREUM ARCHITECTURE STACK</text>
+<g role="table">
+  <g role="rowgroup"><!-- Application Layer -->
+    <rect y="40" width="315" height="60"/>
+    <text class="groupHead" role="columnheader" transform="translate(6 80)">APPLICATION</text>
+
+    <g role="row">
+      <rect class="bg" y="100" width="2580" height="75"/>
+      <text role="rowheader" transform="translate(15 143)">ÐAPPS</text>
+
+      <g role="cell" aria-colindex="4">
+        <rect class="app-layer" x="315" y="110" width="770" height="55" rx="10" ry="10"/>
+        <text transform="translate(620 145)">APPLICATIONS</text>
+
+        <rect class="app-layer" x="1150" y="110" width="770" height="55" rx="10" ry="10"/>
+        <text transform="translate(1215 145)">EXPLORERS, MONITORING &amp; BUSINESS INTELLIGENCE</text>
+      </g>
+
+      <g role="cell" aria-colindex="5">
+        <rect class="x-chain" x="1940" y="110" width="300" height="55" rx="25" ry="25"/>
+        <text transform="translate(1980 145)">CROSSCHAIN ÐAPP</text>
+
+      </g>
+    </g>
+
+    <g role="row">
+      <rect class="bg" y="185" width="2580" height="75"/>
+      <text role="rowheader" transform="translate(15 215)">INFRA CONTRACTS &amp;
+        <tspan x="0" y="30">STANDARDS</tspan></text>
+
+      <g role="cell" aria-colindex="4">
+        <rect class="app-layer" x="315" y="190" width="300" height="55" rx="10" ry="10"/>
+        <text transform="translate(340 225)">TOKEN STANDARDS</text>
+
+        <rect class="app-layer" x="640" y="190" width="380" height="55" rx="10" ry="10"/>
+        <text transform="translate(695 225)">IDENTITY SERVICES</text>
+
+        <rect class="app-layer" x="1050" y="190" width="380" height="55" rx="10" ry="10"/>
+        <text transform="translate(1075 225)">ETHEREUM NAME SERVICE</text>
+
+        <rect class="app-layer" x="1470" y="190" width="450" height="55" rx="10" ry="10"/>
+        <text transform="translate(1525 225)">PERMISSIONING CONTRACTS</text>
+
+      </g>
+
+            <g role="cell" aria-colindex="5">
+              <rect class="x-chain" x="1940" y="190" width="480" height="55" rx="25" ry="25"/>
+              <text transform="translate(1980 225)">CROSSCHAIN SMART CONTRACT</text>
+
+            </g>
+
+    </g>
+
+    <g role="row">
+      <rect class="bg" y="270" width="2580" height="75"/>
+      <text role="rowheader" transform="translate(15 300)">SMART CONTRACT
+        <tspan x="0" y="30">TOOLS</tspan></text>
+
+      <g role="cell" aria-colindex="4">
+        <rect class="app-layer" x="315" y="275" width="425" height="55" rx="10" ry="10"/>
+        <text transform="translate(330 315)">SMART CONTRACT LANGUAGES</text>
+
+        <rect class="app-layer" x="760" y="275" width="325" height="55" rx="10" ry="10"/>
+        <text transform="translate(795 315)">DEVELOPER TOOLS</text>
+
+        <rect class="app-layer" x="1110" y="275" width="460" height="55" rx="10" ry="10"/>
+        <text transform="translate(1140 315)">SECURITY ANALYSIS AND AUDITS</text>
+
+        <rect class="app-layer" x="1590" y="275" width="330" height="55" rx="10" ry="10"/>
+        <text transform="translate(1615 315)">FORMAL VERIFICATION</text>
+      </g>
+
+        <g role="cell" aria-colindex="5">
+        <rect class="x-chain" x="1940" y="275" width="460" height="55" rx="25" ry="25"/>
+        <text transform="translate(1980 315)">MULTICHAIN CONTRACT TOOLS</text>
+
+      </g>
+    </g>
+
+    </g><!-- end rowgroup -->
+
+    <g role="rowgroup"><!-- Tooling -->
+      <rect y="360" width="315" height="60"/>
+      <text class="groupHead" role="columnheader" transform="translate(6 400)">TOOLING</text>
+
+    <g role="row">
+      <rect class="bg" y="420" width="2580" height="70"/>
+      <text role="rowheader" transform="translate(15 450)">CREDENTIAL
+        <tspan x="0" y="30">MANAGEMENT</tspan></text>
+
+        <g role="cell" aria-colindex="2">
+        <path class="public-eth" d="M330,428h217l18,18v17l-18,18h-217l-18-18v-17Z"/>
+        <text transform="translate(390 465)">WALLETS</text>
+        <!-- width: 253 -->
+
+        <path class="public-eth" d="M623,428h281l18,18v17l-18,18h-281l-18-18v-17Z"/>
+        <text transform="translate(650 465)">KEY MANAGEMENT</text>
+        <!-- width: 317 -->
+      </g>
+      <g role="cell" aria-colindex="3">
+        <path class="ent-eth" d="M1470,428h455v2l-50,50h-455v-2Z"/>
+        <text transform="translate(1475 465)">HARDWARE SECURITY MANAGER</text>
+        <!-- width: 175 -->
+
+      </g>
+
+              <g role="cell" aria-colindex="5">
+              <rect class="x-chain" x="1940" y="430" width="340" height="55" rx="25" ry="25"/>
+              <text transform="translate(1980 465)">MULTICHAIN IDENTITY</text>
+
+            </g>
+    </g>
+
+    <g role="row">
+      <rect class="bg" y="502" width="2580" height="70"/>
+      <text role="rowheader" transform="translate(15 528)">INTEGRATION &amp;
+        <tspan x="0" y="29">DEPLOYMENT TOOLS</tspan></text>
+
+        <g role="cell" aria-colindex="2">
+        <path class="public-eth" d="M330,510h591l18,18v17l-18,18h-591l-18-18v-17Z"/>
+        <text transform="translate(503 545)">INTEGRATION LIBRARIES</text>
+        <!-- width: 627 -->
+      </g>
+
+      <g role="cell" aria-colindex="3">
+        <path class="ent-eth" d="M1399,510h524v2l-50,50h-524v-2Z"/>
+        <text transform="translate(1415 545)">ENTERPRISE MANAGEMENT SYSTEMS</text>
+        <!-- width: 575 -->
+      </g>
+
+                    <g role="cell" aria-colindex="5">
+                    <rect class="x-chain" x="1940" y="510" width="420" height="55" rx="25" ry="25"/>
+                    <text transform="translate(1980 545)">CROSSCHAIN DEPLOYMENT</text>
+
+                  </g>
+    </g>
+
+    <g role="row">
+      <rect class="bg" y="585" width="2580" height="70"/>
+      <text role="rowheader" transform="translate(15 616)">CLIENT INTERFACES /
+        <tspan x="0" y="29">APIs</tspan></text>
+
+        <g role="cell" aria-colindex="2">
+        <path class="public-eth" d="M330,596h217l18,18v17l-18,18h-217l-18-18v-17Z"/>
+        <text transform="translate(387 629)">JSON-RPC</text>
+        <!-- width: 253 -->
+
+        <path class="public-eth" d="M670,596h308l18,18v17l-18,18h-308l-18-18v-17Z"/>
+        <text transform="translate(760 629)">INTER-CHAIN</text>
+        <!-- width: 344 -->
+      </g>
+
+    </g>
+  </g><!--rowgroup-->
+
+    <g role="rowgroup"><!-- Privacy / Scaling -->
+      <rect y="682" width="315" height="58"/>
+      <text class="groupHead" role="columnheader" transform="translate(6 721)">ENTERPRISE 3 P's</text>
+
+    <g role="row">
+      <rect class="bg" y="740" width="2580" height="70"/>
+      <text role="rowheader" transform="translate(15 785)">PRIVACY</text>
+
+      <g role="cell" aria-colindex="2">
+        <path class="public-eth" d="M330,749h217l18,18v17l-18,18h-217l-18-18v-17Z"/>
+        <text transform="translate(384 785)">ON-CHAIN</text>
+        <!-- width: 253 -->
+      </g>
+
+      <g role="cell" aria-colindex="3">
+        <path class="ent-eth" d="M1011,749h494v2l-50,50h-494v-2Z"/>
+        <text transform="translate(1030 785)">OFF-CHAIN / TRUSTED COMPUTE</text>
+        <!-- width: 545 -->
+
+        <path class="ent-eth" d="M1534,749h389v2l-50,50h-389v-2Z"/>
+        <text transform="translate(1553 785)">PRIVATE TRANSACTIONS</text>
+        <!-- width: 440 -->
+      </g>
+
+      <g role="cell" aria-colindex="5">
+        <rect class="x-chain" x="1940" y="750" width="260" height="55" rx="25" ry="25"/>
+        <text transform="translate(1980 785)">PRIVACY ZONE</text>
+      </g>
+    </g>
+
+      <g role="row">
+      <rect class="bg" y="820" width="2580" height="70"/>
+      <text role="rowheader" transform="translate(15 865)">PERFORMANCE</text>
+
+      <g role="cell" aria-colindex="2">
+        <path class="public-eth" d="M330,830h329l18,18v17l-18,18h-329l-18-18v-17Z"/>
+        <text transform="translate(345 865)">ON-CHAIN OPTIMIZATION</text>
+        <!-- width: 335 -->
+
+        <path class="public-eth" d="M717,830h300l18,18v17l-18,18h-300l-18-18v-17Z"/>
+        <text transform="translate(725 865)">OFF-CHAIN COMPUTING</text>
+        <!-- width: 440 -->
+      </g>
+      <g role="cell" aria-colindex="3">
+        <path class="ent-eth" d="M1440,830h483v2l-50,50h-483v-2Z"/>
+        <text transform="translate(1460 865)">OFF-CHAIN / TRUSTED COMPUTE</text>
+        <!-- width: 545 -->
+      </g>
+
+      <g role="cell" aria-colindex="5">
+        <rect class="x-chain" x="1940" y="830" width="320" height="55" rx="25" ry="25"/>
+        <text transform="translate(1980 865)">MANAGED FINALITY</text>
+      </g>
+    </g>
+
+    <g role="row">
+      <rect class="bg" y="900" width="2580" height="70"/>
+      <text role="rowheader" transform="translate(15 945)">PERMISSIONING</text>
+
+      <g role="cell" aria-colindex="3">
+        <path class="ent-eth" d="M840,910h380v2l-50,50h-380v-2Z"/>
+        <text transform="translate(855 945)">ORGANIZATION REGISTRY</text>
+        <!-- width: 554 -->
+
+        <path class="ent-eth" d="M1255,910h305v2l-50,50h-305v-2Z"/>
+        <text transform="translate(1280 945)">CLIENT WHITELIST</text>
+        <!-- width: 554 -->
+
+        <path class="ent-eth" d="M1600,910h330v2l-50,50h-330v-2Z"/>
+        <text transform="translate(1610 945)">PERMISSION CHECKS</text>
+        <!-- width: 554 -->
+      </g>
+
+      <g role="cell" aria-colindex="5">
+        <rect class="x-chain" x="1940" y="910" width="320" height="55" rx="25" ry="25"/>
+        <text transform="translate(1980 945)">ZONED PERMISSION</text>
+      </g>
+    </g>
+
+  </g><!-- rowgroup -->
+
+    <g role="rowgroup"><!-- Core Blockchain -->
+      <rect y="990" width="315" height="60"/>
+      <text class="groupHead" role="columnheader" transform="translate(6 1030)">CORE BLOCKCHAIN</text>
+
+    <g role="row">
+      <rect class="bg" y="1050" width="2580" height="70"/>
+      <text role="rowheader" transform="translate(15 1100)">STORAGE/LEDGER</text>
+
+      <g role="cell" aria-colindex="5">
+        <rect class="yellow-paper" x="315" y="1065" width="354" height="50"/>
+        <text transform="translate(340 1100)">ON-CHAIN PUBLIC STATE</text>
+
+        <rect class="yellow-paper" x="689" y="1065" width="304" height="50"/>
+        <text transform="translate(720 1100)">ON-CHAIN STORAGE</text>
+      </g>
+
+      <g role="cell" aria-colindex="2">
+        <path class="public-eth" d="M1040,1065h278l18,18v17l-18,18h-278l-18-18v-17Z"/>
+        <text transform="translate(1050 1100)">OFF-CHAIN STORAGE</text>
+        <!-- width: 314 -->
+      </g>
+
+      <g role="cell" aria-colindex="3">
+        <path class="ent-eth" d="M1510,1065h413v2l-50,50h-413v-2Z"/>
+        <text transform="translate(1540 1100)">ON-CHAIN PRIVATE STATE</text>
+        <!-- width: 464 -->
+      </g>
+
+            <g role="cell" aria-colindex="5">
+              <rect class="x-chain" x="1940" y="1065" width="380" height="55" rx="25" ry="25"/>
+              <text transform="translate(1980 1100)">PARTITIONED STORAGE</text>
+            </g>
+      </g>
+
+      <g role="row">
+      <rect class="bg" y="1130" width="2580" height="70"/>
+      <text role="rowheader" transform="translate(15 1175)">EXECUTION</text>
+
+      <g role="cell" aria-colindex="5">
+        <rect class="yellow-paper" x="315" y="1140" width="145" height="50"/>
+        <text transform="translate(361 1175)">EVM</text>
+      </g>
+
+      <g role="cell" aria-colindex="2">
+        <path class="public-eth" d="M496,1140h118l18,18v17l-18,18h-118l-18-18v-17Z"/>
+        <text transform="translate(527 1175)">SYNC</text>
+        <!-- width: 154 -->
+
+        <path class="public-eth" d="M678,1140h379l18,18v17l-18,18h-379l-18-18v-17Z"/>
+        <text transform="translate(700 1175)">PRECOMPILED CONTRACTS</text>
+        <!-- width: 415 -->
+      </g>
+
+      <g role="cell" aria-colindex="3">
+        <path class="ent-eth" d="M1510,1140h413v2l-50,50h-413v-2Z"/>
+        <text transform="translate(1560 1175)">TRUSTED COMPUTE</text>
+        <!-- width: 365 -->
+      </g>
+
+      <g role="cell" aria-colindex="5">
+        <rect class="x-chain" x="1940" y="1140" width="280" height="55" rx="25" ry="25"/>
+        <text transform="translate(1960 1175)">CROSSCHAIN TRUST</text>
+
+        <rect class="x-chain" x="2235" y="1140" width="325" height="55" rx="25" ry="25"/>
+        <text transform="translate(2250 1175)">CROSSCHAIN ATOMIC TX</text>
+        </g>
+      </g>
+
+      <g role="row">
+      <rect class="bg" y="1210" width="2580" height="70"/>
+      <text role="rowheader" transform="translate(15 1255)">CONSENSUS</text>
+
+      <g role="cell" aria-colindex="5">
+        <rect class="yellow-paper" x="315" y="1220" width="250" height="50"/>
+        <text transform="translate(335 1255)">PROOF OF WORK</text>
+      </g>
+
+      <g role="cell" aria-colindex="2">
+        <path class="public-eth" d="M610,1220h300l18,18v17l-18,18h-300l-18-18v-17Z"/>
+        <text transform="translate(625 1255)">PROOF OF AUTHORITY</text>
+        <!-- width: 702  -->
+
+        <path class="public-eth" d="M960,1220h240l18,18v17l-18,18h-240l-18-18v-17Z"/>
+        <text transform="translate(975 1255)">BFT ALGORITHMS</text>
+        <!-- width: 702  -->
+      </g>
+
+      <!--g role="cell" aria-colindex="3">
+        <path class="ent-eth" d="M1510,1220h413v2l-50,50h-418v-2Z"/>
+        <text transform="translate(1530 1255)">EEA BFT CONSENSUS</text>
+        <!-@@ width: 469  @@->
+      </g-->
+      </g>
+
+      <g role="cell" aria-colindex="5">
+        <rect class="x-chain" x="1940" y="1220" width="320" height="55" rx="25" ry="25"/>
+        <text transform="translate(1980 1255)">MIXED CONSENSUS</text>
+      </g>
+    </g><!-- rowgroup -->
+
+    <g role="rowgroup"><!-- Network -->
+      <rect y="1290" width="315" height="60"/>
+      <text class="groupHead" role="columnheader" transform="translate(6 1335)">NETWORK</text>
+
+    <g role="row">
+      <rect class="bg" y="1350" width="2580" height="70"/>
+      <text role="rowheader" transform="translate(15 1395)">NETWORK PROTOCOL</text>
+
+      <g role="cell" aria-colindex="2">
+        <path class="public-eth" d="M330,1360h150l18,18v17l-18,18h-150l-18-18v-17Z"/>
+        <text transform="translate(360 1395)">DEVP2P</text>
+        <!-- width: 552  -->
+      </g>
+
+      <g role="cell" aria-colindex="3">
+        <path class="ent-eth" d="M1275,1360h650v2l-50,50h-650v-2Z"/>
+        <text transform="translate(1300 1395)">RESTRICTED PRIVATE TRANSACTION SHARING</text>
+        <!-- width: 575 -->
+      </g>
+
+      <g role="cell" aria-colindex="5">
+        <rect class="x-chain" x="1940" y="1360" width="280" height="55" rx="25" ry="25"/>
+        <text transform="translate(1980 1395)">CHAIN IDENTITY</text>
+      </g>
+
+      </g>
+    </g>
+
+  <g transform="translate(16 1470)" role="row">
+    <text class="cls-72">LEGEND</text>
+
+    <rect class="yellow-paper" x="156" y="-34" width="103" height="50"/>
+    <text role="columnheader" aria-colindex="5" class="cls-73" x="273">Yellow Paper</text>
+
+    <path class="public-eth" d="M505,-34h67l18,18v17l-18,18h-67l-18-18v-17Z"/>
+    <text role="columnheader" aria-colindex="2" class="cls-73" x="605">Public Ethereum</text>
+
+    <rect class="app-layer" x="860" y="-34" width="100" height="53" rx="10" ry="10"/>
+    <text role="columnheader" aria-colindex="4" class="cls-73" x="977">Application Layer</text>
+
+    <path class="ent-eth" d="M1290,-34h72v2l-50,50h-72v-2Z"/>
+    <text role="columnheader" aria-colindex="3" class="cls-73" x="1376">Enterprise Ethereum</text>
+
+    <rect class="x-chain" x="1650" y="-34" width="100" height="55" rx="25" ry="25"/>
+    <text role="columnheader" aria-colindex="5" class="cls-73" x="1765">EEA Crosschain</text>
+
+    <text class="cls-73" y="65">All Yellow Paper, Public Ethereum, and Application Layer components may be extended for Enterprise Ethereum as required.</text>
+
+    <text class="cls-73" y="100">© 2018-2020 Enterprise Ethereum Alliance Inc. All rights reserved.</text>
+  </g>
+</g><!-- table -->
+</svg>
